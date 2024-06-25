@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+header {
+    color: #ffffff;
+    background-color: dodgerblue;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 ;
+    padding: 12px;
+}
+
+.business-logo {
+    width: 10%;
+}
+
+.header-img-name-container{
+    display: flex;
+}
+
+header h1 {
+    margin: 18px;
+    font-size: 24px;
+    align-self: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+.business-img-container {
+    background-image: url("https://www.lovethatdesign.com/wp-content/uploads/2017/11/Atlas-office-landscape-Herman-Miller-13.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.img-content {
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.img-button {
+    background-color: cadetblue;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+#Services {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+#Services h2 {
+    color: cyan;
+    margin-bottom: 15px;
+}
+
+#Services ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#Services li {
+    margin-bottom: 10px;
+}
+
+/* Styling for About Section */
+#Aboutus {
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: left;
+}
+
+#Aboutus h2 {
+    color: darkturquoise;
+    margin-bottom: 15px;
+}
+
+/* Styling for Contact Section */
+#Contactus {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+#Contactus h2 {
+    color: lightseagreen;
+    margin-bottom: 15px;
+}
+
+#Contactus p {
+    margin-bottom: 10px;
+}
+
+/* Hover Effects */
+#Services li:hover,
+#Contactus p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Responsive Design Adjustments */
+@media screen and (max-width: 768px) {
+
+    #Services,
+    #about,
+    #contact {
+        text-align: center;
+    }
+
+    #Services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+
+.fotter {
+    background-color: #007bff;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
